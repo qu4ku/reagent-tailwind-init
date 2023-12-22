@@ -7,9 +7,14 @@ A starting point with Reagent and Tailwind.
 ### Install dependencies
 `npm install`
 
+install npm-run-all to run one command for both shadow and tailwind watch
+`npm install -g npm-run-all`
+
 ### Watch (dev)
 - Shadow: `npm run shadow:watch`
 - Tailwind: `npm run tailwind:watch`
+
+- One command: `npm run dev:watch`
 
 ### Release (prod)
 - Shadow: `npm run shadow:release`

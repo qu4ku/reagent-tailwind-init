@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev:watch": "run-p shadow:watch tailwind:watch",
     "shadow:watch": "shadow-cljs watch app",
     "shadow:release": "shadow-cljs release app",
     "tailwind:build": "tailwindcss -i ./src/css/app.css -o ./public/app.css",
